@@ -22,7 +22,9 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
   pedantic: ^1.9.2
-
+dependencies_overrides:
+  intl: 0.17.0-nullsafety.2
+  
 flutter:
   assets:
     - i18n/
